@@ -7,8 +7,7 @@ The goal is to create an Azure solution which can take an On-premise Database su
 This solution can be connected to a visualization and reporting dashboard using Microsoft Power BI.
 
 Data Migration to the Cloud is one of the most common scenarios the Data Engineers encounter when building solutions for a small-medium organization. By working on this project, I was able to learn these skills:
-
-## Data Ingestion
+*Data Ingestion
 * ETL techniques using Azure Cloud Services
 * Data Transformation
 * Data Analytics and Dashboard Reporting
