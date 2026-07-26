@@ -15,19 +15,19 @@ The pipeline follows a modern data engineering workflow:
 ## 🔄 Project Workflow
 ### 🔹 Data Ingestion – Azure Data Factory
 - Ingested Tokyo Olympic dataset from an HTTP source
-- **Used Azure Data Factory (ADF) for orchestration**
-Implemented Copy Activity to move raw data into ADLS Gen2
-Enabled scalable and monitored data movement
+- Used Azure Data Factory (ADF) for orchestration
+- Implemented Copy Activity to move raw data into ADLS Gen2
+- Enabled scalable and monitored data movement
 ### 🔹 Data Transformation – Azure Databricks
-Performed data cleaning and transformations using PySpark
-Processed data stored in ADLS Gen2
-Wrote transformed data back to storage
+- Performed data cleaning and transformations using PySpark
+- Processed data stored in ADLS Gen2
+- Wrote transformed data back to storage
 ### 🔹 Data Analytics – Azure Synapse Analytics
-Connected Synapse to transformed data in ADLS Gen2
-Created external tables
-Used Serverless SQL Pool for querying data without infrastructure setup
-Performed aggregation and analysis on Olympic datasets
-🚀 Key Learnings
+- Connected Synapse to transformed data in ADLS Gen2
+- Created external tables
+- Used Serverless SQL Pool for querying data without infrastructure setup
+- Performed aggregation and analysis on Olympic datasets
+## 🚀 Key Learnings
 Built a complete end-to-end data pipeline on Azure
 Understood how ADF orchestrates workflows efficiently
 Gained hands-on experience with Databricks & PySpark
