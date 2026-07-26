@@ -11,7 +11,7 @@ The pipeline follows a modern data engineering workflow:
 ### HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
 
 
-![Sales Dashboard](https://github.com/kanisaini/PortfolioProjects/blob/main/PowerBI%20Dashboards%20and%20Reports/SuperStore%20Analysis%20Report/SalesDashboard.png)
+![Architecture](https://github.com/kanisaini/PortfolioProjects/"C:\Users\kanis\Downloads\Architecture diagram.png")
 
 
 ## 🔄 Project Workflow
