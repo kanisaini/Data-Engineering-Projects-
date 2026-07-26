@@ -3,25 +3,25 @@
 
 This project demonstrates an end-to-end Azure Data Engineering pipeline built using the Tokyo Olympic dataset. The goal was to design a scalable, cloud-native data architecture to ingest, transform, and analyze data using modern Azure services.
 
-🏗️ Architecture
+## 🏗️ Architecture
 
 The pipeline follows a modern data engineering workflow:
 
-HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
+## HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
 
-📊 You can add your architecture diagram here
 
-🔄 Project Workflow
-🔹 Data Ingestion – Azure Data Factory
+
+## 🔄 Project Workflow
+### 🔹 Data Ingestion – Azure Data Factory
 Ingested Tokyo Olympic dataset from an HTTP source
 Used Azure Data Factory (ADF) for orchestration
 Implemented Copy Activity to move raw data into ADLS Gen2
 Enabled scalable and monitored data movement
-🔹 Data Transformation – Azure Databricks
+### 🔹 Data Transformation – Azure Databricks
 Performed data cleaning and transformations using PySpark
 Processed data stored in ADLS Gen2
 Wrote transformed data back to storage
-🔹 Data Analytics – Azure Synapse Analytics
+### 🔹 Data Analytics – Azure Synapse Analytics
 Connected Synapse to transformed data in ADLS Gen2
 Created external tables
 Used Serverless SQL Pool for querying data without infrastructure setup
