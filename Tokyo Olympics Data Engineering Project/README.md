@@ -44,18 +44,19 @@ The pipeline follows a modern data engineering workflow:
 
 👉 Lesson: Always choose the right tool based on workload
 
-🔧 Improvements for Future
-Convert data from CSV → Parquet for better performance
-Implement full Medallion Architecture (Bronze → Silver → Gold)
-Optimize pipeline for cost and scalability
-🛠️ Tech Stack
-Azure Data Factory
-Azure Data Lake Storage Gen2
-Azure Databricks
-PySpark
-Azure Synapse Analytics
-Serverless SQL Pool
-SQL
+## 🔧 Improvements for Future
+- Convert data from CSV → Parquet for better performance
+- Implement full Medallion Architecture (Bronze → Silver → Gold)
+- Optimize pipeline for cost and scalability
+
+## 🛠️ Tech Stack
+- Azure Data Factory
+- Azure Data Lake Storage Gen2
+- Azure Databricks
+- PySpark
+- Azure Synapse Analytics
+- Serverless SQL Pool
+- SQL
 
 ## 📈 Conclusion
 
