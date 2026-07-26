@@ -28,19 +28,19 @@ The pipeline follows a modern data engineering workflow:
 - Used Serverless SQL Pool for querying data without infrastructure setup
 - Performed aggregation and analysis on Olympic datasets
 ## 🚀 Key Learnings
-Built a complete end-to-end data pipeline on Azure
-Understood how ADF orchestrates workflows efficiently
-Gained hands-on experience with Databricks & PySpark
-Learned how to query data directly from storage using Synapse Serverless SQL
-Explored integration between multiple Azure services
-💡 Engineering Insights
-✔️ What Worked Well
-ADF Copy Activity simplified data ingestion
-Seamless integration across Azure services
-Synapse Serverless SQL enabled fast data exploration
-⚖️ Trade-offs
-Dataset was small → Databricks introduced unnecessary cost
-Simpler transformations could be handled within ADF
+- Built a complete end-to-end data pipeline on Azure
+- Understood how ADF orchestrates workflows efficiently
+- Gained hands-on experience with Databricks & PySpark
+- Learned how to query data directly from storage using Synapse Serverless SQL
+- Explored integration between multiple Azure services
+## 💡 Engineering Insights
+### ✔️ What Worked Well
+- ADF Copy Activity simplified data ingestion
+- Seamless integration across Azure services
+- Synapse Serverless SQL enabled fast data exploration
+### ⚖️ Trade-offs
+- Dataset was small → Databricks introduced unnecessary cost
+- Simpler transformations could be handled within ADF
 
 👉 Lesson: Always choose the right tool based on workload
 
