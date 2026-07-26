@@ -10,12 +10,12 @@ The pipeline follows a modern data engineering workflow:
 
 ### HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
 
-![Sales Dashboard](https://github.com/kanisaini/Data-Engineering-Projects-/blob/main/Tokyo%20Olympics%20Data%20Engineering%20Project/Architecture%20diagram.png)
+![Architecture](https://github.com/kanisaini/Data-Engineering-Projects-/blob/main/Tokyo%20Olympics%20Data%20Engineering%20Project/Architecture%20diagram.png)
 
 ## 🔄 Project Workflow
 ### 🔹 Data Ingestion – Azure Data Factory
-Ingested Tokyo Olympic dataset from an HTTP source
-Used Azure Data Factory (ADF) for orchestration
+- Ingested Tokyo Olympic dataset from an HTTP source
+- **Used Azure Data Factory (ADF) for orchestration**
 Implemented Copy Activity to move raw data into ADLS Gen2
 Enabled scalable and monitored data movement
 ### 🔹 Data Transformation – Azure Databricks
@@ -56,6 +56,7 @@ PySpark
 Azure Synapse Analytics
 Serverless SQL Pool
 SQL
-📈 Conclusion
+
+## 📈 Conclusion
 
 This project highlights how to design a modern data pipeline using Azure services. It reinforces the importance of balancing performance, cost, and simplicity when building scalable data solutions.
