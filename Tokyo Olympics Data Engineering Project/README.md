@@ -10,9 +10,7 @@ The pipeline follows a modern data engineering workflow:
 
 ### HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
 
-
-![Architecture](https://github.com/kanisaini/PortfolioProjects/"C:\Users\kanis\Downloads\Architecture diagram.png")
-
+![Sales Dashboard](https://github.com/kanisaini/Data-Engineering-Projects-/blob/main/Tokyo%20Olympics%20Data%20Engineering%20Project/Architecture%20diagram.png)
 
 ## 🔄 Project Workflow
 ### 🔹 Data Ingestion – Azure Data Factory
