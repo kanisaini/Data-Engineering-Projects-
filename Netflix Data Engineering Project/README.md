@@ -28,8 +28,8 @@ This project demonstrates an end-to-end data engineering pipeline using Azure se
 - Star Schema Design
 - Scalable ETL Pipeline
 
-## 📷 Screenshots
-(Add Power BI dashboard images here)
+
+
 
 ## 🚀 How to Run
 1. Set up Azure resources
