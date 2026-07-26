@@ -1,4 +1,5 @@
 # 🏅 Azure Data Engineering Project – Tokyo Olympic Data Pipeline
+
 ## 📌 Overview
 
 This project demonstrates an end-to-end Azure Data Engineering pipeline built using the Tokyo Olympic dataset. The goal was to design a scalable, cloud-native data architecture to ingest, transform, and analyze data using modern Azure services.
@@ -7,8 +8,10 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline built us
 
 The pipeline follows a modern data engineering workflow:
 
-## HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
+### HTTP Source → Azure Data Factory → Azure Data Lake Storage Gen2 → Azure Databricks (PySpark) → ADLS Gen2 → Azure Synapse Analytics
 
+
+![Sales Dashboard](https://github.com/kanisaini/PortfolioProjects/blob/main/PowerBI%20Dashboards%20and%20Reports/SuperStore%20Analysis%20Report/SalesDashboard.png)
 
 
 ## 🔄 Project Workflow
