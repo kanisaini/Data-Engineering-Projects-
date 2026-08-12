@@ -3,8 +3,6 @@
 ## Projects
 - **Azure Medallion Lakehouse Pipeline**
   
-- **Covid19 Data Analysis**
-  
 - **Netflix Data Engineering Project**
   
 - **Tokyo Olympics Data Engineering Project**
